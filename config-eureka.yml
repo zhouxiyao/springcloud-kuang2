@@ -10,7 +10,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: springcloud-config-eureka
+    name: springcloud-config-eureka-dev
 
 #Eureka配置
 eureka:
@@ -33,7 +33,7 @@ server:
 spring:
   profiles: test
   application:
-    name: springcloud-config-eureka
+    name: springcloud-config-eureka-test
 
 #Eureka配置
 eureka:
